@@ -1,0 +1,16 @@
+#Except for
+!README.md
+!.gitignore
+!./dev/*.c
+!./src/*.c
+!./include/*.h
+![Mm]akefile
+
+#Ignore all
+./build/*
+./release/*
+
+#Ignore all with extensions
+./build/*.*
+./release/*.*
+
